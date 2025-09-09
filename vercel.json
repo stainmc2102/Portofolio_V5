@@ -7,6 +7,7 @@
       "config": { "distDir": "dist" }
     }
   ],
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
   "routes": [
     { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html" }
